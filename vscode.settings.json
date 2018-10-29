@@ -1,0 +1,10 @@
+{
+    "telemetry.enableCrashReporter": false,
+    "editor.minimap.renderCharacters": false,
+    "editor.minimap.showSlider": "always",
+    "editor.formatOnSave": true,
+    "editor.tabSize": 2,
+    "prettier.semi": false,
+    "workbench.colorTheme": "Dark-Dracula",
+    "prettier.bracketSpacing": false
+}
