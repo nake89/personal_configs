@@ -5,6 +5,6 @@
 
 # You can install normal i3 if you want.
 
-apt install i3status suckless-tools rxvt-unicode
+apt install i3status suckless-tools rxvt-unicode code-fonts
 
 # Install this to be a be able to change font size on the fly: https://github.com/majutsushi/urxvt-font-size
