@@ -1,0 +1,2 @@
+ setxkbmap -option grp:caps_toggle -layout us,fi
+ setxkbmap -print -verbose 10
