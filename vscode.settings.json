@@ -1,10 +1,54 @@
 {
-    "telemetry.enableCrashReporter": false,
-    "editor.minimap.renderCharacters": false,
-    "editor.minimap.showSlider": "always",
-    "editor.formatOnSave": true,
-    "editor.tabSize": 2,
-    "prettier.semi": false,
-    "workbench.colorTheme": "Dark-Dracula",
-    "prettier.bracketSpacing": false
+  "telemetry.enableCrashReporter": false,
+  "editor.minimap.renderCharacters": false,
+  "editor.minimap.showSlider": "always",
+  "editor.formatOnSave": true,
+  "editor.tabSize": 2,
+  "workbench.colorCustomizations": {
+    "editor.selectionHighlightBackground": "#FF79C6",
+    "editor.selectionBackground": "#88a9ffd0"
+  },
+  "workbench.colorTheme": "Dark-Dracula",
+  "prettier.bracketSpacing": false,
+  "window.zoomLevel": 0,
+
+  "emeraldwalk.runonsave": {
+    "commands": [
+      {
+        "match": "\\.php$",
+        "cmd": "prettier ${file} --write"
+      }
+    ]
+  },
+  "files.watcherExclude": {
+    "**/vendor/**": true
+  },
+  "prettier.semi": false,
+  "vim.easymotion": true,
+  "editor.lineNumbers": "relative",
+  "vim.normalModeKeyBindingsNonRecursive": [
+    {
+      "before": ["s"],
+      "after": ["leader", "leader", "s"]
+    }
+  ],
+  "vim.insertModeKeyBindings": [
+    {
+      "before": ["j", "j"],
+      "after": ["<Esc>"]
+    }
+  ],
+  "vim.easymotionMarkerFontSize": "18",
+  "vim.easymotionMarkerFontWeight": "bold",
+  "vim.easymotionMarkerBackgroundColor": "black",
+  "vim.easymotionMarkerHeight": 18,
+  "vim.easymotionMarkerWidthPerChar": 18,
+  "vim.easymotionMarkerForegroundColorOneChar": "#FF79C6",
+  "vim.easymotionMarkerForegroundColorTwoChar": "#FF79C6",
+  "vim.handleKeys": {
+    "<C-a>": false,
+    "<C-f>": false,
+    "<C-w>": false,
+    "<C-c>": false
+  }
 }
