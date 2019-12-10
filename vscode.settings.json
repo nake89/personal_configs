@@ -8,10 +8,9 @@
     "editor.selectionHighlightBackground": "#FF79C6",
     "editor.selectionBackground": "#88a9ffd0"
   },
-  "workbench.colorTheme": "Dark-Dracula",
+  "workbench.colorTheme": "Blakai Theme",
   "prettier.bracketSpacing": false,
-  "window.zoomLevel": 0,
-
+  "window.zoomLevel": 1,
   "emeraldwalk.runonsave": {
     "commands": [
       {
@@ -46,9 +45,18 @@
   "vim.easymotionMarkerForegroundColorOneChar": "#FF79C6",
   "vim.easymotionMarkerForegroundColorTwoChar": "#FF79C6",
   "vim.handleKeys": {
+    "<C-x>": false,
     "<C-a>": false,
     "<C-f>": false,
     "<C-w>": false,
-    "<C-c>": false
-  }
+    "<C-c>": false,
+    "<C-k>": false,
+    "<C-n>": false
+  },
+  "remote.extensionKind": {
+    "coenraads.bracket-pair-colorizer-2": "ui"
+  },
+  "terminal.integrated.shell.windows": "C:\\WINDOWS\\System32\\wsl.exe",
+  "zenMode.hideLineNumbers": false,
+  "zenMode.hideStatusBar": false
 }
