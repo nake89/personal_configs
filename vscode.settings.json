@@ -1,4 +1,16 @@
 {
+  // "editor.minimap.showSlider": "always",
+  // "editor.minimap.renderCharacters": false,
+  // "workbench.colorCustomizations": {
+  //   "editor.selectionHighlightBackground": "#FF79C6",
+  //   "editor.selectionBackground": "#88a9ffd0"
+  // },
+  // "workbench.colorTheme": "Dark-Dracula",
+  // "editor.formatOnSave": true,
+  // "editor.tabSize": 2,
+  // "prettier.semi": false,
+  // "window.zoomLevel": 0,
+  // "workbench.iconTheme": "vscode-icons"
   "telemetry.enableCrashReporter": false,
   "editor.minimap.renderCharacters": false,
   "editor.minimap.showSlider": "always",
@@ -6,35 +18,45 @@
   "editor.tabSize": 2,
   "workbench.colorCustomizations": {
     "editor.selectionHighlightBackground": "#FF79C6",
-    "editor.selectionBackground": "#88a9ffd0"
+    // "editor.selectionBackground": "#88a9ffd0"
+    "editor.selectionBackground": "#FF79C6"
   },
-  "workbench.colorTheme": "Blakai Theme",
+  "workbench.colorTheme": "Dark-Dracula",
   "prettier.bracketSpacing": false,
-  "window.zoomLevel": 1,
-  "emeraldwalk.runonsave": {
-    "commands": [
-      {
-        "match": "\\.php$",
-        "cmd": "prettier ${file} --write"
-      }
-    ]
-  },
+  "window.zoomLevel": 0,
   "files.watcherExclude": {
     "**/vendor/**": true
   },
   "prettier.semi": false,
+  "vetur.format.defaultFormatterOptions": {
+    "prettier": {
+      // Prettier option here
+      "semi": false
+    }
+  },
   "vim.easymotion": true,
   "editor.lineNumbers": "relative",
   "vim.normalModeKeyBindingsNonRecursive": [
     {
-      "before": ["s"],
-      "after": ["leader", "leader", "s"]
+      "before": [
+        "s"
+      ],
+      "after": [
+        "leader",
+        "leader",
+        "s"
+      ]
     }
   ],
   "vim.insertModeKeyBindings": [
     {
-      "before": ["j", "j"],
-      "after": ["<Esc>"]
+      "before": [
+        "j",
+        "j"
+      ],
+      "after": [
+        "<Esc>"
+      ]
     }
   ],
   "vim.easymotionMarkerFontSize": "18",
@@ -45,18 +67,21 @@
   "vim.easymotionMarkerForegroundColorOneChar": "#FF79C6",
   "vim.easymotionMarkerForegroundColorTwoChar": "#FF79C6",
   "vim.handleKeys": {
-    "<C-x>": false,
     "<C-a>": false,
     "<C-f>": false,
     "<C-w>": false,
     "<C-c>": false,
-    "<C-k>": false,
-    "<C-n>": false
+    "<C-l>": false
   },
-  "remote.extensionKind": {
-    "coenraads.bracket-pair-colorizer-2": "ui"
-  },
-  "terminal.integrated.shell.windows": "C:\\WINDOWS\\System32\\wsl.exe",
+  "zenMode.hideStatusBar": false,
   "zenMode.hideLineNumbers": false,
-  "zenMode.hideStatusBar": false
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "window.nativeFullScreen": false,
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "path-intellisense.mappings": {
+    "@": "${workspaceRoot}/src"
+  }
 }
